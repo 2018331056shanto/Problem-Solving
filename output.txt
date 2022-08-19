@@ -1,6 +1,4 @@
-Yes
-No
-Yes
-Yes
-No
-No
+9
+297
+0
+14

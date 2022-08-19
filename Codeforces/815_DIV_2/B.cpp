@@ -5,30 +5,18 @@
 	{
 		int n;
 		cin>>n;
-		int ev,od;
-		ev=od=0;
+		vector<int>a,b;
 		for(int i=0;i<n;i++)
 		{
 			int x;
 			cin>>x;
-			if(x%2)
-			{
-				od++;
-			}
-			else
-			{
-				ev++;
-			}
+			a.push_back(x);
+			b.push_back(x);
 		}
-		if(ev%2)
-		{
-			cout<<"errorgorn"<<endl;
-		}
-		else
-		{
-			cout<<"maomao90"<<endl;
-		}
-	
+		sort(a.begin(),a.end());
+		sort(b.begin(),b.end(),greater<>());
+		
+		cout<<(b[0]-a[0])+(b[1]-a[1])<<endl;
 	}
 
 	int32_t main()

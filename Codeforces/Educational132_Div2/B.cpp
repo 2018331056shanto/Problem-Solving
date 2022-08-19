@@ -5,15 +5,15 @@
 	{
 		int n,m;
 		cin>>n>>m;
-		vector<int>v(n);
+		vector<long long>v(n);
 		for(int i=1;i<=n;i++)
 		{
 			cin>>v[i];
 			// cout<<v[i]<<" ";
 		}
 		// cout<<endl;
-		int gAns[100010];
-		int lAns[100010];
+		long long gAns[100010];
+		long long lAns[100010];
 		memset(gAns,0,sizeof(gAns));
 		memset(lAns,0,sizeof(lAns));
 		

@@ -3,25 +3,25 @@
 
 	void solve()
 	{
-		int a,b,c,x,y;
-		cin>>a>>b>>c>>x>>y;
-		int dif=0;
-		if(a<x)
+
+		long long a,b,c,d;
+		cin>>a>>b>>c>>d;
+		long long x=a*d;
+		long long y=c*b;
+		if(x==y)
 		{
-			dif=x-a;
-		}	
-		if(b<y)
-		{
-			dif+=y-b;
+			cout<<0<<endl;
 		}
-		if(dif>c)
+		
+		else if(y!=0 &&x%y==0 ||x!=0&&y%x==0)
 		{
-			cout<<"NO"<<endl;
+			cout<<1<<endl;
 		}
 		else
 		{
-			cout<<"YES"<<endl;
+			cout<<2<<endl;
 		}
+		
 	}
 
 	int32_t main()
