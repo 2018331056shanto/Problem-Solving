@@ -3,113 +3,99 @@ using namespace std;
 
 
 void solve(){
-	
+
 	int n;
 	cin>>n;
-	vector<int>v(n,0),v1(n,0),vzero,vone;
+	vector<int>v(n,0),zero,one;
 	for(int i=0;i<n;i++)
-
 	{
 		cin>>v[i];
-	}
+	}	
 	for(int i=0;i<n;i++)
-
 	{
-		cin>>v1[i];
-		if(v[i]==0)
-		{
-			vzero.push_back(v1[i]);
+		int x;
+		cin>>x;
+		if(v[i]==0){
+			zero.push_back(x);
 		}
 		else
 		{
-			vone.push_back(v1[i]);
+			one.push_back(x);
 		}
 	}
-	
-	sort(vone.begin(),vone.end(),greater<>());
+	sort(zero.begin(),zero.end(),greater<>());
+	sort(one.begin(),one.end(),greater<>());
 
-	sort(vzero.begin(),vzero.end(),greater<>());
+	int cntz=zero.size();
+	int cnto=one.size();
 
-	int zero=vzero.size();
-	int one=vone.size();
-	if(zero==0)
-	{
+	if(cntz<cnto){
+
 		long long sum=0;
-		for(auto x:vone)
-			sum+=x;
+
+		sum+=one[cnto-1];
+		int k=0;
+		for(int i=0;i<cntz;i++)
+		{
+			sum+=(2*zero[i]);
+
+			sum+=(2*one[i]);
+			k++;
+		}
+		for(k;k<cnto-1;k++)
+		{
+			sum+=one[k];
+		}
 		cout<<sum<<endl;
 	}
-	else if(one==0){
+	else if(cnto<cntz){
+
 		long long sum=0;
-		for(auto x:vzero)
-			sum+=x;
+
+		sum+=zero[cntz-1];
+		int k=0;
+		for(int i=0;i<cnto;i++)
+		{
+			sum+=(2*one[i]);
+
+			sum+=(2*zero[i]);
+			k++;
+		}
+		for(k;k<cntz-1;k++)
+		{
+			sum+=zero[k];
+		}
 		cout<<sum<<endl;
 	}
 	else{
-		if(zero<=one){
+
+		if(one[cnto-1]<zero[cntz-1])
+		{
 			long long sum=0;
-			if(vone[one-1]<vzero[zero-1])
+			sum+=one[cnto-1];
+			for(int i=0;i<cnto-1;i++)
 			{
-				sum+=vone[one-1];
-				int i=0;int j=0;
-				for(;i<one-1;i++)
-				{
-				
-				
-					if(j<zero)
-					{
-						sum+=(2*vzero[j]);
-						// cout<<"vzero :"<<vzero[j]<<endl;
-						j++;
-					}
-					else
-					{
-						break;
-					}
-				
-				// cout<<"vone :"<<vone[i]<<endl;
-				sum+=2*vone[i];
-
-				}
-				sum+=2*vzero[zero-1];
-
-				
-				cout<<sum<<endl;
-
+				sum+=(2*one[i]);
 			}
-			else
+			for(int i=0;i<cntz;i++)
 			{
-
-				sum+=vzero[zero-1];
-				int i=0;int j=0;
-				for(;i<zero-1;i++)
-				{
-				
-				
-					if(j<one)
-					{
-						sum+=(2*vone[j]);
-						// cout<<"vzero :"<<vzero[j]<<endl;
-						j++;
-					}
-					else
-					{
-						break;
-					}
-				
-				// cout<<"vone :"<<vone[i]<<endl;
-				sum+=2*vzero[i];
-
-				}
-				sum+=2*vone[one-1];
-
-				
-				cout<<sum<<endl;
+				sum+=(2*zero[i]);
 			}
-			
-			// cout<<sum<<endl;
-		
-			
+			cout<<sum<<endl;
+		}
+		else{
+
+			long long sum=0;
+			sum+=zero[cntz-1];
+			for(int i=0;i<cntz-1;i++)
+			{
+				sum+=(2*zero[i]);
+			}
+			for(int i=0;i<cnto;i++)
+			{
+				sum+=(2*one[i]);
+			}
+			cout<<sum<<endl;
 		}
 	}
 
