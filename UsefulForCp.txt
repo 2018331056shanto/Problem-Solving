@@ -1,0 +1,9 @@
+n = n * 2 :: n = n << 1
+n = n /2  :: n = n >> 1
+
+checking if n is power of 2 (1,2,4,8…) ::checking !(n & (n-1))
+if x is max power of 2 dividing n, then x = (n & -n)
+Total number of bits which are set in n = __builtin_popcount(n)
+setting xth bit of n  :: n |= (1<<x)
+checking if xth bit of n is set :: checking if  n&(1<<x) is non zero
+

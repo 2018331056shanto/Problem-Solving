@@ -53,7 +53,7 @@ void solve(){
 		ans=max(ans,min(depth2[i],depth[i]));
 		cout<<ans<<" "<<depth2[i]<<" "<<depth[i]<<" f\n";
 	}
-	cout<<ans+1<<"\n";
+	cout<<ans<<"\n";
 	
 	
 	
