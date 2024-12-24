@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"r1"
+			],
+			[
+				"l",
+				"l2"
+			],
+			[
+				"get",
+				"get_ways"
+			],
+			[
+				"c",
+				"cntB"
+			],
+			[
+				"v",
+				"vector"
+			],
+			[
+				"cn",
+				"cnt"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"ma",
+				"map"
+			],
+			[
+				"m",
+				"max"
+			],
+			[
+				"inc",
+				"increase"
+			],
+			[
+				"so",
+				"sync_with_stdio"
+			],
+			[
+				"bo",
+				"board1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/media/shanto/Others/programming/EqualCandies.cpp",
+		"/media/shanto/Others/programming/EatingQueries.cpp",
+		"/media/shanto/Others/programming/X-Sum.cpp",
+		"/media/shanto/Others/programming/MostSimilarWords.cpp",
+		"/media/shanto/Others/programming/TokitsukazeandAllZeroSequence.cpp",
+		"/media/shanto/Others/programming/Lucky?.cpp",
+		"/media/shanto/Others/programming/DetectiveTask.cpp",
+		"/media/shanto/Others/programming/TokitsukazeandGood01-String.cpp",
+		"/media/shanto/Others/programming/input.txt",
+		"/media/shanto/Others/programming/output.txt",
+		"/media/shanto/Others/programming/1.c",
+		"/media/shanto/Others/programming/MakeItIncreasing.cpp",
+		"/media/shanto/Others/programming/AnotherProblemAboutDividingNumbers.cpp",
+		"/media/shanto/Others/programming/FoodforAnimals.cpp",
+		"/media/shanto/Others/programming/A-B-CSort.cpp",
+		"/home/shanto/.config/sublime-text/Packages/User/CPP.sublime-build",
+		"/media/shanto/Others/programming/InfiniteReplacement.cpp",
+		"/media/shanto/Others/programming/Dictionary.cpp",
+		"/media/shanto/Others/programming/NumberTransformation.cpp",
+		"/media/shanto/Others/programming/14.cpp",
+		"/media/shanto/Others/programming/SubtleSubstringSubtraction.cpp",
+		"/media/shanto/Others/programming/APerfectlyBalancedString.cpp",
+		"/media/shanto/Others/programming/coin.cpp",
+		"/media/shanto/Others/programming/01 Game.cpp",
+		"/media/shanto/Others/programming/PalindromeBasis.cpp",
+		"/media/shanto/Others/programming/IloveAAAB.cpp",
+		"/media/shanto/Others/programming/LogChopping.cpp",
+		"/media/shanto/Others/programming/BinaryIndexedTree.cpp",
+		"/media/shanto/Others/programming/DolceVita.cpp",
+		"/media/shanto/Others/programming/ConsecutivePointsSegment.cpp",
+		"/media/shanto/Others/programming/StringBuilding.cpp",
+		"/media/shanto/Others/programming/OptimalPartition.cpp",
+		"/media/shanto/Others/programming/MakeitIncreasing.cpp",
+		"/media/shanto/Others/programming/SocialDistance.cpp",
+		"/media/shanto/Others/programming/InsertaProgression.cpp",
+		"/media/shanto/Others/programming/SocialDistance",
+		"/media/shanto/Others/programming/ArrayBalancing.cpp",
+		"/media/shanto/Others/programming/DirectionChange.cpp",
+		"/media/shanto/Others/programming/Gamee.cpp",
+		"/media/shanto/Others/programming/WeirdSum.cpp",
+		"/media/shanto/Others/programming/GameofBallPassing.cpp",
+		"/media/shanto/Others/programming/TreeInfection.cpp",
+		"/media/shanto/Others/programming/lca.cpp",
+		"/opt/lampp/phpmyadmin/config.inc.php",
+		"/media/shanto/Others/programming/asssssssss.cpp",
+		"/media/shanto/Others/programming/ArrayCloningTechnique.cpp",
+		"/media/shanto/Others/programming/GCDvsLCM.cpp",
+		"/media/shanto/Others/programming/gag.c",
+		"/media/shanto/Others/programming/popos.cpp",
+		"/home/shanto/.config/sublime-text/Packages/User/solve.sublime-snippet",
+		"/home/shanto/.config/sublime-text/Packages/User/include.sublime-snippet",
+		"/home/shanto/.config/sublime-text/Packages/User/prime.sublime-snippet",
+		"/home/shanto/.config/sublime-text/Packages/User/primefactorial.sublime-snippet",
+		"/home/shanto/.config/sublime-text/Packages/User/SegmentPrime.sublime-snippet",
+		"/media/shanto/Others/programming/inputf.in",
+		"/media/shanto/Others/programming/outputf.in",
+		"/home/shanto/.config/sublime-text/Packages/User/outputf.in",
+		"/home/shanto/.config/sublime-text/Packages/User/inputf.in",
+		"/home/shanto/.config/sublime-text/Packages/User/CPP17.sublime-build",
+		"/home/shanto/.config/sublime-text/Packages/User/hello.cpp",
+		"/home/shanto/.config/sublime-text/Packages/User/output.in",
+		"/home/shanto/.config/sublime-text/Packages/User/input.in",
+		"/media/shanto/46885EAE885E9BED/CPP.sublime-build"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/media/shanto/Others/programming"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 109.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "Packages/User/CPP.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
