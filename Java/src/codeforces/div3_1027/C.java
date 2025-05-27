@@ -1,45 +1,64 @@
-package codeforces.div2_1025;
+package codeforces.div3_1027;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 import java.util.StringTokenizer;
 
 /**
  * @author: Ashraful Islam Shanto
- * <p>Date:5/26/25</p>
- * <p>Time:6:38 AM</p>
+ * <p>Date:5/27/25</p>
+ * <p>Time:7:17 AM</p>
  */
-public class C1 {
+public class C {
         public static void main(String[] args) {
 
                 FastScanner fs = new FastScanner();
                 PrintWriter out = new PrintWriter(System.out);
                 int t = fs.nextInt();
                 while (t-- > 0) {
-                    System.out.flush();
 
                     int n = fs.nextInt();
+                    List<Integer> values = new ArrayList<>();
+                    for (int i = 0; i < n; i++) {
+                        values.add(fs.nextInt());
+                    }
+                    values.add(values.getFirst());
+                    int ans = 1;
+                    int i=0;
+                    int j=1;
+                    int count = 0;
+                    int same=0;
+                    while (j<values.size()-1){
 
-                    System.out.println("digit");
-                    int x=fs.nextInt();
+                        if(Objects.equals(values.get(i), values.get(j + 1))){
 
-                    System.out.println("digit");
-                    x=fs.nextInt();
+                            j++;
+                            continue;
+                        }else if(Objects.equals(values.get(i)+1,values.get(j))){
 
-                    for(int i=8;i>=1;i/=2){
-                        System.out.println(String.format("add %d", -i));
-                        x=fs.nextInt();
+                            count++;
+                            i=j;
+
+                        }else {
+                            if (count!=0){
+                                ans+=count/2;
+                                count=0;
+                            }else {
+                                ans++;
+                            }
+                        }
+                        j++;
+                    }
+                    if(count!=0){
+                        ans+=count/2;
                     }
 
-                    System.out.println(String.format("add %d", n-1));
-                    x=fs.nextInt();
-
-                    System.out.println("!");
-                    x=fs.nextInt();
-                    assert (x==1);
-
+                    System.out.println(ans);
 
                 }
 

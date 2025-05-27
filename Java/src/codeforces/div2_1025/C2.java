@@ -8,39 +8,39 @@ import java.util.StringTokenizer;
 
 /**
  * @author: Ashraful Islam Shanto
- * <p>Date:5/26/25</p>
- * <p>Time:6:38 AM</p>
+ * <p>Date:5/27/25</p>
+ * <p>Time:5:42 AM</p>
  */
-public class C1 {
+public class C2 {
+
         public static void main(String[] args) {
 
                 FastScanner fs = new FastScanner();
                 PrintWriter out = new PrintWriter(System.out);
+
                 int t = fs.nextInt();
+
                 while (t-- > 0) {
-                    System.out.flush();
+
 
                     int n = fs.nextInt();
 
-                    System.out.println("digit");
-                    int x=fs.nextInt();
+                    System.out.println(String.format("mul %d",9));
+                    int m = fs.nextInt();
 
                     System.out.println("digit");
-                    x=fs.nextInt();
+                    m= fs.nextInt();
 
-                    for(int i=8;i>=1;i/=2){
-                        System.out.println(String.format("add %d", -i));
-                        x=fs.nextInt();
-                    }
+                    System.out.println("digit");
+                    m = fs.nextInt();
 
-                    System.out.println(String.format("add %d", n-1));
-                    x=fs.nextInt();
+                    System.out.println(String.format("add %d",n-9));
+                    m=fs.nextInt();
 
                     System.out.println("!");
-                    x=fs.nextInt();
-                    assert (x==1);
 
-
+                    m=fs.nextInt();
+                    assert (m==1);
                 }
 
             }

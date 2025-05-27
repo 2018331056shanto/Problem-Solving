@@ -1,4 +1,4 @@
-package codeforces.div2_1025;
+package codeforces.div3_1027;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,39 +8,37 @@ import java.util.StringTokenizer;
 
 /**
  * @author: Ashraful Islam Shanto
- * <p>Date:5/26/25</p>
- * <p>Time:6:38 AM</p>
+ * <p>Date:5/27/25</p>
+ * <p>Time:5:56 AM</p>
  */
-public class C1 {
+public class A {
         public static void main(String[] args) {
 
                 FastScanner fs = new FastScanner();
                 PrintWriter out = new PrintWriter(System.out);
+
                 int t = fs.nextInt();
                 while (t-- > 0) {
-                    System.out.flush();
 
                     int n = fs.nextInt();
 
-                    System.out.println("digit");
-                    int x=fs.nextInt();
+                    boolean flag = false;
+                    for(int i=0;i<=100;i++)
+                    {
+                        for(int j=0;j<=100;j++){
 
-                    System.out.println("digit");
-                    x=fs.nextInt();
+                            if(((i+j)*(i+j))==n){
+                                System.out.println(String.format("%d %d", i, j));
+                                flag = true;
+                                break;
 
-                    for(int i=8;i>=1;i/=2){
-                        System.out.println(String.format("add %d", -i));
-                        x=fs.nextInt();
+                            }
+                        }
+                        if(flag) break;
                     }
 
-                    System.out.println(String.format("add %d", n-1));
-                    x=fs.nextInt();
-
-                    System.out.println("!");
-                    x=fs.nextInt();
-                    assert (x==1);
-
-
+                    if(!flag)
+                    System.out.println(-1);
                 }
 
             }

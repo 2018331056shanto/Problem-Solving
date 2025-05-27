@@ -1,44 +1,60 @@
-package codeforces.div2_1025;
+package codeforces.div3_1027;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.Objects;
 import java.util.StringTokenizer;
 
 /**
  * @author: Ashraful Islam Shanto
- * <p>Date:5/26/25</p>
- * <p>Time:6:38 AM</p>
+ * <p>Date:5/27/25</p>
+ * <p>Time:6:05 AM</p>
  */
-public class C1 {
+public class B {
         public static void main(String[] args) {
 
                 FastScanner fs = new FastScanner();
                 PrintWriter out = new PrintWriter(System.out);
+
                 int t = fs.nextInt();
+
                 while (t-- > 0) {
-                    System.out.flush();
 
                     int n = fs.nextInt();
+                    int k=fs.nextInt();
 
-                    System.out.println("digit");
-                    int x=fs.nextInt();
+                    String s=fs.next();
+                    int countZero=0;
 
-                    System.out.println("digit");
-                    x=fs.nextInt();
-
-                    for(int i=8;i>=1;i/=2){
-                        System.out.println(String.format("add %d", -i));
-                        x=fs.nextInt();
+                    for(int i=0;i<s.length();i++){
+                        if (Objects.equals(s.charAt(i),'0')) countZero++;
                     }
 
-                    System.out.println(String.format("add %d", n-1));
-                    x=fs.nextInt();
+                    int countOne=n-countZero;
+                    int differenceBetweenZeroAndOne=Math.abs(countOne-countZero);
 
-                    System.out.println("!");
-                    x=fs.nextInt();
-                    assert (x==1);
+                    if(differenceBetweenZeroAndOne/2>k)
+                    System.out.println("No");
+                    else if(differenceBetweenZeroAndOne/2==k)
+                       System.out.println("Yes");
+                    else {
+                        if(differenceBetweenZeroAndOne==0)
+                        {
+                            if(k%2==0){
+                               System. out.println("Yes");
+                            }else {
+                               System. out.println("No");
+                            }
+                        }else {
+                            k-=differenceBetweenZeroAndOne/2;
+                            if(k%2==0)
+                                System.out.println("Yes");
+                            else
+                                System.out.println("No");
+                        }
+                    }
 
 
                 }
