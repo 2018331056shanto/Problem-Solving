@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84a342b1-502f-45f9-8f1f-b8f6c5452520" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/codeforces/div3_1027/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/leetcode/LongestBinarySubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/codeforces/div3_1027/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/codeforces/div3_1027/C.java" afterDir="false" />
-    </list>
+    <list default="true" id="84a342b1-502f-45f9-8f1f-b8f6c5452520" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +22,10 @@
     &quot;accountId&quot;: &quot;a0d3af78-e0ac-42e4-ad58-d7b8870bd21b&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -40,8 +40,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ashraful-islam/Problem-Solving/Java",
+    "last_opened_file_path": "/media/ashraful-islam/Technyx/problem/Java",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,6 +65,7 @@
       <updated>1747877991694</updated>
       <workItem from="1747877993136" duration="92000" />
       <workItem from="1750897986041" duration="164000" />
+      <workItem from="1753055165228" duration="92000" />
     </task>
     <servers />
   </component>
