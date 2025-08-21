@@ -1,4 +1,4 @@
-//package codeforces.div2_1040;
+package codeforces.div2_1040;
 
 import java.io.BufferedReader;
 import java.io.IOException;
