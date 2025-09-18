@@ -18,7 +18,6 @@ func main(){
 
 		for i:=range n{
 		
-			fmt.Println(i)
 
 			fmt.Scan(&a[i])
 		}

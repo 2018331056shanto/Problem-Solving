@@ -1,7 +1,4 @@
-Yes
-NO
-NO
-NO
-Yes
-NO
-Yes
+2999999997
+42
+59
+0
